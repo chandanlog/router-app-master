@@ -1,0 +1,27 @@
+/* App.css */
+body {
+  padding-top: 56px; /* Adjusted for fixed navbar height */
+  padding-bottom: 56px; /* Adjusted for fixed footer height */ 
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to left, rgb(16, 194, 164), rgb(20 15 35));
+} 
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+
